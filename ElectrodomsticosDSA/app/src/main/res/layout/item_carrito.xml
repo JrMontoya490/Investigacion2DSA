@@ -53,7 +53,7 @@
                 android:id="@+id/btnAumentarCantidad"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
-                android:text="+"
+                android:text="@string/mas"
                 android:textSize="16sp" />
         </LinearLayout>
 
@@ -64,6 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:layout_gravity="center"
         android:text="Eliminar" />
 
 </LinearLayout>

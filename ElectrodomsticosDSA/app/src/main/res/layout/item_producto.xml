@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="8dp"
+    android:padding="10dp"
     android:layout_marginBottom="8dp"
     android:background="?android:attr/selectableItemBackground">
 
@@ -12,14 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nombre del Producto"
-        android:textSize="16sp" />
+        android:textSize="20sp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_gravity="end"
-        android:layout_marginTop="8dp">
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
 
         <Button
             android:id="@+id/btnEditar"
